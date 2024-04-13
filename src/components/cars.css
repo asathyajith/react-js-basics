@@ -1,0 +1,11 @@
+.car-text {
+    color :aqua;
+    border: solid white 1px;
+    width: 80%;
+}
+
+.remove-one-button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: beige;
+}
