@@ -1,4 +1,5 @@
 import { React ,useState } from "react";
+import { Link } from "react-router-dom";
 import "../App.css";
 import Car from "./cars";
 import useList from "../hooks/useList";
@@ -49,6 +50,10 @@ function CustomHookComp() {
         <button onClick={removeLowHandle} className="remove-button">
           Remove low RPM
         </button>
+        <br />
+        <Link to="/">
+          <button>Home</button>
+        </Link>
       </header>
     </div>
   );
