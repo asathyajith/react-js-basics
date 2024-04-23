@@ -19,6 +19,7 @@ const useList = (init) => {
       setList(filtered_list);
     },
     saveItem(index,newVal) {
+      // eslint-disable-next-line no-unused-vars
       const copyList = [...list];
       init[index].name = newVal;
     },
