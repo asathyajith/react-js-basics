@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import "../App.css";
 
 function FirstComp() {
+
   const [age, setAge] = useState(10);
+  
   const upHandle = () => {
     setAge(age + 1);
   };
