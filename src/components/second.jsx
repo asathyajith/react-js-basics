@@ -13,6 +13,7 @@ function CustomHookComp() {
   ]);
   const [editable, setEditable] = useState(false);
   const [newCar, setNewCar] = useState({ name: "", rpm: 0 });
+  
   const handleAddCar = () => {
     if (newCar.name && newCar.rpm) {
       setCars([...cars, newCar]);
